@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/* body::before {
+  display: block;
+  content: '';
+  height: 4.5rem;
+} */
+
+header {
+  margin-bottom: 4.5rem;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 6rem
+}
+
+.sottotitolo {
+  font-family: 'Tangerine', cursive;
+  font-size: 4rem;
+ /*  margin-bottom: 0; */
+}
+
+/* Il gioco */
+#prenotazioni, #questions, #contatti, footer, .card {
+  background-color: #101820;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Autrice */
+
+.autrice {
+  background-position: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+  .btn-prenotazione {
+    width: 100% !important;
+  }
+
+  .contatti li {
+    font-size: 0.5rem !important;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .sottotitolo {
+    font-size: 3rem;
+  }
+}
